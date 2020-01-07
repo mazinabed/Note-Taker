@@ -13,7 +13,7 @@ var PORT = process.env.PORT || 3000;
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, 'public',)));
 
 
 // Routes
@@ -22,12 +22,12 @@ app.use(express.static(path.join(__dirname, "public")));
 // Basic route that sends the user first to the AJAX Page
 
 app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "public", "index.html"));
+    res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
 
 app.get("/notes", function(req, res) {
-  res.sendFile(path.join(__dirname, "public", "notes.html"));
+  res.sendFile(path.join(__dirname, 'public', 'notes.html'));
 });
 
 // GET : Displays all Notes

@@ -1,3 +1,30 @@
 {
-  
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "Manage your own NOTES !!! ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazinabed/note-taker.git"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "Mazin Abed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazinabed/note-taker/issues"
+  },
+  "homepage": "thub.com/mazinabed/note-taker/blob/master/README.md",
+  "dependencies": {
+    "express": "^4.17.1",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
 }
