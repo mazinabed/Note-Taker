@@ -14,7 +14,7 @@ An application that can be used to write, save, and delete notes. This applicati
 
 The application has been deployed on heroku. Click below to go to the link : 
 
-https://glacial-bastion-75326.herokuapp.com/index.html
+https://still-gorge-79390.herokuapp.com/
 
 
 This app is using Express.js to write notes and save them into Jason file. 
